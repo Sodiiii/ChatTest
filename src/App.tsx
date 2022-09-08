@@ -8,11 +8,9 @@ import Start from "./components/start/Start";
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Main />}>
-      </Route>
-      <Route path='/loading' element={<Loading />}>
-      </Route>
-      <Route path='/start' element={<Start />}/>
+      <Route path="/" element={<Main />}></Route>
+      <Route path="/loading" element={<Loading />}></Route>
+      <Route path="/start" element={<Start />} />
     </Routes>
   );
 }
