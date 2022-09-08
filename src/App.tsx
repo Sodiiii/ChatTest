@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
 import Loading from "./components/loading/Loading";
 import Main from "./components/main/Main";
 import Start from "./components/start/Start";
